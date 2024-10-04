@@ -11,7 +11,7 @@ const Navbar: FC = () => {
     <nav className="fixed top-0 left-0 w-full z-40 bg-white shadow-lg">
       <header className="px-4 lg:px-16 h-16 w-full flex items-center justify-between">
         {/* Logo */}
-        <Link className="flex items-center justify-center" href="#">
+        <Link className="flex items-center justify-center" href="/">
           <Sparkles className="h-6 w-6 text-sky-600" />
           <span className="ml-2 text-2xl font-bold text-sky-600">Patexa.</span>
         </Link>
