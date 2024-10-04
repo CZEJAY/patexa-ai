@@ -15,13 +15,13 @@ export default function PatexaLandingPage() {
       <main className="flex-1">
         <Hero />
         <section id="features" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">
               Features
             </h2>
             <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3">
               <div className="flex flex-col items-center space-y-3 text-center">
-                <Zap className="w-12 h-12 text-indigo-600" />
+                <Zap className="w-12 h-12 text-sky-600" />
                 <h3 className="text-xl font-bold">AI-Powered Creation</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Generate content and designs in seconds with advanced AI
@@ -29,7 +29,7 @@ export default function PatexaLandingPage() {
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-3 text-center">
-                <PenTool className="w-12 h-12 text-indigo-600" />
+                <PenTool className="w-12 h-12 text-sky-600" />
                 <h3 className="text-xl font-bold">No Design Skills Needed</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Create professional-looking content without any design
@@ -37,14 +37,14 @@ export default function PatexaLandingPage() {
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-3 text-center">
-                <Globe className="w-12 h-12 text-indigo-600" />
+                <Globe className="w-12 h-12 text-sky-600" />
                 <h3 className="text-xl font-bold">Website Builder</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Build stunning websites with our intuitive AI-assisted tools.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-3 text-center">
-                <FileText className="w-12 h-12 text-indigo-600" />
+                <FileText className="w-12 h-12 text-sky-600" />
                 <h3 className="text-xl font-bold">Document Creation</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Craft compelling documents, from resumes to reports, with
@@ -52,14 +52,14 @@ export default function PatexaLandingPage() {
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-3 text-center">
-                <Star className="w-12 h-12 text-indigo-600" />
+                <Star className="w-12 h-12 text-sky-600" />
                 <h3 className="text-xl font-bold">Premium Templates</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Access a wide range of professionally designed templates.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-3 text-center">
-                <Sparkles className="w-12 h-12 text-indigo-600" />
+                <Sparkles className="w-12 h-12 text-sky-600" />
                 <h3 className="text-xl font-bold">Customization</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Tailor every aspect of your creations to match your vision.
@@ -115,9 +115,9 @@ export default function PatexaLandingPage() {
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-gray-500 dark:text-gray-400">
-          © 2024 Patexa. All rights reserved.
+          &copy; 2024 Patexa. All rights reserved.
         </p>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
+        <nav className="text-sm md:text-lg sm:ml-auto flex gap-4 sm:gap-6">
           <Link className="hover:underline underline-offset-4" href="#">
             Terms of Service
           </Link>

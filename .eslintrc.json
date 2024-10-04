@@ -5,6 +5,7 @@
     "no-unused-vars": "off",
     "@typescript-eslint/no-empty-object-type":  "off",
     "@next/next/no-img-element":  "off",
-    "prefer-const":  "off"
+    "prefer-const":  "off",
+    "@typescript-eslint/no-unused-expressions":  "off"
   }
 }

@@ -20,7 +20,7 @@ const PricingCard = ({ item }: Props) => {
   return (
     <div
       className={`flex flex-col p-6 bg-white rounded-lg shadow-lg text-black ${
-        isPro ? "!bg-indigo-500 !text-white" : "bg-white"
+        isPro ? "!bg-sky-500 !text-white" : "bg-white"
       }`}
     >
       <h3 className="text-2xl font-bold text-center mb-4">{item.plan}</h3>
@@ -36,9 +36,7 @@ const PricingCard = ({ item }: Props) => {
         {item.features.map((feature, i) => (
           <li key={i} className="flex items-center">
             <ChevronRight
-              className={`${
-                isPro ? "text-white mr-2" : "text-indigo-500 mr-2"
-              }`}
+              className={`${isPro ? "text-white mr-2" : "text-sky-500 mr-2"}`}
             />
             <span>{feature}</span>
           </li>
@@ -47,7 +45,7 @@ const PricingCard = ({ item }: Props) => {
       <Button
         className={`mt-auto ${
           isPro
-            ? "bg-white text-indigo-600 hover:bg-gray-100"
+            ? "bg-white text-sky-600 hover:bg-gray-100"
             : "bg-black text-white hover:bg-black/85"
         }`}
       >
