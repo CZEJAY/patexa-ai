@@ -26,6 +26,7 @@ export function Waitlist() {
       }
       setOpen(true);
       setEmail("");
+      setError("");
     } catch (err) {
       console.error("Error submitting form:", err);
       setOpen(true); // Show modal with error message
