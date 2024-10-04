@@ -42,7 +42,7 @@ const Hero: FC = () => {
 
       {/* Announcement badge */}
       <motion.div
-        className="flex items-center px-4 py-2 animate-pulse mb-4 bg-gray-900 rounded-full text-sm"
+        className="flex items-center px-4 py-2 mb-4 bg-gray-900 rounded-full text-sm"
         variants={fadeInUp}
       >
         <span className="mr-2">🎉</span> Coming soon
